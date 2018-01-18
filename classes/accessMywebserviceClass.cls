@@ -1,6 +1,7 @@
 Public class accessMywebserviceClass{
     Public String val{get;set;}
     Public accessMywebserviceClass(){
-        val = myWebservices.demo();        
+        val = myWebservices.demo(); 
+	// thifoidjoidfjbidfjbidfjiobvjfdobjodfbooxdfbg		
     }
 }
