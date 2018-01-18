@@ -12,7 +12,7 @@ trigger Check on CheckOpp__c (before insert,before update,after delete, after un
                     c.check__c=true;
                 }
             }    
-            // testtt
+            // testttegergerg
             list<CheckOpp__c> chk=[select check__c from CheckOpp__c];
             for(checkOpp__c con:chk){
                 if(con.Check__c== c.check__c){
@@ -22,7 +22,7 @@ trigger Check on CheckOpp__c (before insert,before update,after delete, after un
              }update opp;
         }
     }
-    //jfdgydgfvjdfsds
+    //jfdgydgfvjdfsdssacdas
      if(trigger.isUpdate){
          list<CheckOpp__c> cl=[select Check__c from CheckOpp__c];
          if(triggercheck.test==false){

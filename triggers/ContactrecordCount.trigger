@@ -11,6 +11,7 @@ trigger ContactrecordCount on Contact (after insert,after update,after delete,af
             }   
          }
     }   
+    //dsfdgsdgs
     if(trigger.isUpdate){
        for(contact con : trigger.old){
            if(con.xcount__c !=null){

@@ -7,7 +7,7 @@
        <apex:variable value="{!i+1}" var="i"/>
   </apex:column>
       <apex:column value="{!obj}"/>
-      
+      ftrtgtrgrt
      
   </apex:pageblockTable>
   </apex:pageBlock>
