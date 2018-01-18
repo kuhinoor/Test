@@ -6,5 +6,4 @@ trigger accountDeletion on Account (Before insert) {
     }
     */
     boolean bln = trigger.oldMap.isEmpty()?true:false;
-	// kgnbkjbgfeefesadfasdf
 }

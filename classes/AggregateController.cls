@@ -10,6 +10,7 @@ public class AggregateController{
             Models.add(model);
         }
     }
+    //njnkfdhuhudifhghdgudhfgushgi
     public class ModelClass{
         public integer countStudents{get;set;}
         public String className{get;set;}
