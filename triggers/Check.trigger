@@ -5,7 +5,7 @@ trigger Check on CheckOpp__c (before insert,before update,after delete, after un
      public list<checkOpp__c> opp3=new list<checkOpp__c>();
      public list<checkOpp__c> opp4=new list<checkOpp__c>();
     if(trigger.isInsert){
-    //hhhhhhhhhhhhhhhhhhhhhhhhhhhh
+    //ASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
         for(CheckOpp__c c:trigger.new){
             opp1=[select check__c from CheckOpp__c];
             if(opp1.size()<1){
