@@ -7,5 +7,5 @@ trigger createTask on Opportunity (after insert,before update) {
     if(taskToInsertList.size()>0){
         insert taskToInsertList;
     }
-    
+    // this is fucking change
 }
