@@ -4,7 +4,7 @@ trigger autoUpdateGenderField on Contact (before insert,before update) {
             con.Gender__c='Male';
         }
         else if('Mrs.' == con.salutation || 'Ms.' == con.salutation){
-            Con.Gender__c = 'Female';
+            Con.Gender__c = 'Female';//sdsdsds
         }
        
     }
